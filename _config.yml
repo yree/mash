@@ -9,3 +9,5 @@ baseurl: /mash
 git_repo: yree/mash
 
 remote_theme: yree/mold
+
+goat_counter: yree
