@@ -66,7 +66,7 @@ html! {
 <form hx-post="/submit" hx-target="#response">
 ```
 
-#### **SQLx** - Interacting with Databases 🗂️
+#### **SQLx** - Interacting with Databases 🗂
 **SQLx** is used to handle database queries in an async, safe manner. This example demonstrates how you can use SQLx to interact with your database to store and retrieve data.
 
 ```rust
@@ -81,7 +81,7 @@ async fn handle_submit(pool: PgPool, form: FormData) -> Result<impl IntoResponse
 }
 ```
 
-## Why you'll love MASH ❤️
+## Why you'll love MASH ❤
 
 - **Minimalist**: The stack is designed to be lightweight and efficient. Maud ensures your HTML is clean and type-safe, while HTMX eliminates the need for complex JavaScript.
 - **Rapid Prototyping**: Thanks to Axum’s easy routing, HTMX’s seamless client-server interaction, and SQLx’s database access, you can quickly prototype interactive web applications.
