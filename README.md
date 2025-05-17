@@ -2,16 +2,35 @@
 
 **as simple as potatoes**
 
-Welcome to **MASH** - a minimalist web development stack that combines the power of **m**aud, **a**xum, **s**qlx, and **h**tmx.
+<br>
+
+Welcome to **mash** */maud'axum'sqlx'htmx/*
+
+A minimalist web development stack that combines the power of Rust and htmx for efficient, type-safe, and interactive web applications.
 
 ## Why mash? 🤔
 
-- **Maud**: A blazing-fast Rust-based templating engine that lets you write HTML directly in Rust, ensuring type safety and avoiding common HTML errors.
-- **Axum**: A powerful web framework built on Tokio that handles routing and request management with ease and speed.
-- **SQLx**: An async, pure Rust SQL crate for interacting with databases, offering compile-time query verification, which ensures you avoid runtime SQL errors.
-- **HTMX**: A JavaScript library that enables interaction between the client and server without writing JavaScript—using HTML attributes like `hx-post` and `hx-target`.
+<div class="grid">
+  <div class="card">
+    <b>🦀 <a href="https://maud.lambda.xyz" target="_blank">maud</a></b>
+    <p>A blazing-fast Rust-based templating engine that lets you write HTML directly in Rust, ensuring type safety and avoiding common HTML errors.</p>
+  </div>
+  <div class="card">
+    <b>🌐 <a href="https://crates.io/crates/axum" target="_blank">axum</a></b>
+    <p>A powerful web framework built on Tokio that handles routing and request management with ease and speed.</p>
+  </div>
+</div>
 
-MASH allows for rapid prototyping with simple UI elements while maintaining performance and ease of development.
+<div class="grid">
+  <div class="card">
+    <b>📦 <a href="https://crates.io/crates/sqlx" target="_blank">sqlx</a></b>
+    <p>An async, pure Rust SQL crate for interacting with databases, offering compile-time query verification, which ensures you avoid runtime SQL errors.</p>
+  </div>
+  <div class="card">
+    <b>⚡ <a href="https://htmx.org" target="_blank">htmx</a></b>
+    <p>A JavaScript library that enables interaction between the client and server without writing JavaScript—using HTML attributes like <code>hx-post</code> and <code>hx-target</code>.</p>
+  </div>
+</div>
 
 ## Hello World! 🌍
 
