@@ -10,24 +10,21 @@ A minimalist web development stack that combines the power of Rust and htmx for 
 
 ## Why mash? 🤔
 
-<div class="grid">
+<div class="flex">
   <div class="card">
-    <b>🦀 <a href="https://maud.lambda.xyz" target="_blank">maud</a></b>
+    <b><a href="https://maud.lambda.xyz" target="_blank">maud</a> 🦀</b>
     <p>A blazing-fast Rust-based templating engine that lets you write HTML directly in Rust, ensuring type safety and avoiding common HTML errors.</p>
   </div>
   <div class="card">
-    <b>🌐 <a href="https://crates.io/crates/axum" target="_blank">axum</a></b>
+    <b><a href="https://crates.io/crates/axum" target="_blank">axum</a> 🌐</b>
     <p>A powerful web framework built on Tokio that handles routing and request management with ease and speed.</p>
   </div>
-</div>
-
-<div class="grid">
   <div class="card">
-    <b>📦 <a href="https://crates.io/crates/sqlx" target="_blank">sqlx</a></b>
+    <b><a href="https://crates.io/crates/sqlx" target="_blank">sqlx</a> 📦</b>
     <p>An async, pure Rust SQL crate for interacting with databases, offering compile-time query verification, which ensures you avoid runtime SQL errors.</p>
   </div>
   <div class="card">
-    <b>⚡ <a href="https://htmx.org" target="_blank">htmx</a></b>
+    <b><a href="https://htmx.org" target="_blank">htmx</a> ⚡</b>
     <p>A JavaScript library that enables interaction between the client and server without writing JavaScript—using HTML attributes like <code>hx-post</code> and <code>hx-target</code>.</p>
   </div>
 </div>
